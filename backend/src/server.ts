@@ -15,6 +15,13 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get("/", (_req, res) => {
+  res.json({
+    name: "DevGraph API",
+    status: "ok",
+  });
+});
+
 app.use("/api/technologies", technologyRoutes);
 app.use("/api/projects", projectRoutes);
 app.use("/api/jobs", jobRoutes);

@@ -1,6 +1,3 @@
-<img width="935" height="458" alt="image" src="https://github.com/user-attachments/assets/afaa965e-5e7a-4cf7-bd6d-409b3f4a53ed" />
-<img width="1528" height="830" alt="Recording 2026-08-14 141847" src="https://github.com/user-attachments/assets/c19983a0-3275-4dc8-98a4-c989b9ab3ed2" />
-<img width="1892" height="938" alt="Recording 2026-08-14 142236" src="https://github.com/user-attachments/assets/eb03805e-418d-4b2b-838b-e2dcf4e27a63" />
 
 <div align="center">
 

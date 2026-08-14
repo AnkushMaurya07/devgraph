@@ -18,3 +18,13 @@ export const driver = neo4j.driver(
     maxConnectionPoolSize: 20,
   }
 );
+
+
+driver
+  .verifyConnectivity()
+  .then(() => {
+    console.log("✅ CognoDB connection established");
+  })
+  .catch((error) => {
+    console.error("❌ CognoDB connection failed:", error);
+  });

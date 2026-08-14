@@ -11,5 +11,10 @@ if (!uri || !username || !password) {
 
 export const driver = neo4j.driver(
   uri,
-  neo4j.auth.basic(username, password)
+  neo4j.auth.basic(username, password),
+  {
+    maxConnectionLifetime: 5 * 60 * 1000,
+    connectionTimeout: 15 * 1000,
+    maxConnectionPoolSize: 20,
+  }
 );
